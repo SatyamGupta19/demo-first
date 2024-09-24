@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+*{ 
+            font-family: Arial;
+            padding: 0%;
+        margin: 0%;
+
+        }
+            @media (min-width:300px),(max-width:600px){
+    div{font-size:8px;}
+}
+
+
+        h1{color: red;}
+        hr{background-color: black;}
+        #navbar{
+            font-size: 10px;
+            height: 50px;
+            background-color: darkblue;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        #main{
+            background-color: yellow;
+        }
+
+        #footer{
+            height: 200px;
+            background-color: gray;
+        }
+
+        #backbutton{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        }
+
+        #space{
+            color: white;
+        }
+
+        #name{
+            border-radius: 10px;
+        }
+
+        #email{
+            border-radius: 10px;
+        }
+
+        #contact{
+            border-radius: 10px;
+        }
+
+        #cources{
+            border-radius: 10px;
+            width: 168px
+        }
+
+        #city{
+            border-radius: 10px;
+        }
+
+        .submitreset{
+            height:25px;
+            width: 60px;
+            border-radius: 13px;
+
+        }
+        </style>
+        <title>
+            enquiry for for admission after 12th 
+        </title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">HOME</a> 
+            <p id="space">|</p>
+            <a href="cources.html">COURCES</a> 
+            <p id="space">|</p>
+            <a href="contacts.html">CONTACTS</a> 
+            <p id="space">|</p>
+            <a href="enquiry.html">ENQUIRY</a> 
+            <p id="space">|</p>
+            <a href="feedback.html">FEEDBACK</a>
+        </div>
+        <div id="main">
+            <br><br><br>
+            <h1 align="center">ADMISSION ENQUIRY </h1>
+           <br><br>
+            <center>
+                
+                <form  action="https://formsubmit.co/s4824753@gmail.com" method="post">
+                    <b>ENTER YOUR NAME</b>
+                    <br>
+                    <input type="name" placeholder="   Name"  name="name2" id="name">
+                    <br><BR>
+                <br>
+                    <b>ENTER YOUR EMAIL ID</b>
+                    <br>
+                    <input type="email" placeholder="   Email"  name="email2" id="email">
+                    <br>
+                    <br><br>
+                    <b>ENTER YOUR CONTACT NUMBER</b>
+                    <br>
+                    <input type="tell" placeholder="   Contact no" name="mobno" id="contact">
+                    <br><br><br>
+                    <b>COURCES</b>
+                    <br>
+                    <select  name="cources" id="cources">
+                        <OPTION>SELECT</OPTION>
+                        <option>B.COM</option>
+                        <OPTION>M.COM</OPTION>
+                        <OPTION>BAF</OPTION>
+                        <OPTION>BMS</OPTION>
+                        <OPTION>BA & SPECILITION</OPTION>
+                        <OPTION>B.TECH</OPTION>
+                        <OPTION>M.TECH</OPTION>
+                        <OPTION>BCA</OPTION>
+                        <OPTION>MCA</OPTION>
+                    </select>
+                    <BR>
+                        <br><br>
+                        <b>ENTER YOUR CITY</b>
+                        <BR>
+                            <input type="text" placeholder="   City"  name="city2" id="city">
+                            <br>
+                            <br>
+                        
+                            <input type="hidden" name="_captcha" value="false">
+                            
+                            <input type="submit" value="submit" class="submitreset">
+                            <input type="reset" value="reset" class="submitreset">
+                </form>
+            </center>
+            <br>
+            <div id="backbuttoncover">
+                <a href="index.html" id="backbutton">BACK</a>
+            </div>
+                
+            <br>
+            
+        </div>
+
+    </body>
+</html>
